@@ -9,7 +9,7 @@ function pangrama() {
         let letra = alfabeto_arreglo[index];
         
         if (!texto.includes(letra)) {
-            document.getElementById("respuesta").innerHTML = "No es pangrama"
+            document.getElementById("resPangrama").innerHTML = "No es pangrama"
             console.log("No es pangrama");
             esta = false;
             break;

@@ -4,12 +4,25 @@
     <title>Page Title</title>
   </head>
   <body>
-    <h1>Ingrese el texto:</h1>
-    <mat-checkbox>texto:</mat-checkbox>
-    <input type="text" id="texto" />
-    <button type="button" onclick="pangrama()">probar</button>
-    <p id="respuesta">Aqui aparecerá la respuesta</p>
+    <div style="border: 1px solid black">
+      <h1>PANGRAMA</h1>
+      <h3>Ingrese el texto:</h3>
+      <mat-checkbox>texto:</mat-checkbox>
+      <input type="text" id="texto" />
+      <button type="button" onclick="pangrama()">probar</button>
+      <p id="resPangrama"></p>
+    </div>
+    <divstyle="border: 1px solid black">
+      <h1>AÑO BISIESTO</h1>
+      <h3>Ingrese el año:</h3>
+      <mat-checkbox>Año:</mat-checkbox>
+      <input type="number" id="año" />
+      <button type="button" onclick="añoBisiesto()">probar</button>
+      <p id="resBisiesto"></p>
+    </div>
+    
 
-    <script type="text/javascript" src="pangrama.js"></script>
+    <script type="text/javascript" src="pangrama.js" ></script>
+    <script type="text/javascript" src="año_bisiesto.js" ></script>
   </body>
 </html>
