@@ -18,7 +18,7 @@ function pangrama() {
     }
     
     if (esta) {
-        document.getElementById("respuesta").innerHTML = "Es pangrama"
+        document.getElementById("resPangrama").innerHTML = "Es pangrama"
         console.log("Es pangrama");
     }
     

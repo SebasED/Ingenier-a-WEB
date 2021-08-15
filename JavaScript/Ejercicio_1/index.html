@@ -20,9 +20,28 @@
       <button type="button" onclick="añoBisiesto()">probar</button>
       <p id="resBisiesto"></p>
     </div>
-    
+    <div>
+      <fieldset>
+        <legend>Devolver elementos no únicos</legend>
+        <h3>Ingrese el vector</h3>
+        <input type="number" id="numberArray" >
+        <p id="newArray"></p>
+        <button type="button" onclick="elementosNoUnicos()">Reducir</button>
+      </fieldset>
+    </div>
+    <div>
+      <fieldset>
+        <legend>Pasar a romanos</legend>
+        <h3>Ingrese el número: </h3>
+        <input type="number" id="intNum">
+        <p id="numRoman"></p>
+        <button type="button" onclick="converToRoman()">Convertir</button>
+      </fieldset>
+    </div>
 
     <script type="text/javascript" src="pangrama.js" ></script>
     <script type="text/javascript" src="año_bisiesto.js" ></script>
+    <script type="text/javascript" src="elementos_no_unicos.js" ></script>
+    <script type="text/javascript" src="romanos.js" ></script>
   </body>
 </html>
